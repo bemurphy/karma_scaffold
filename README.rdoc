@@ -1,0 +1,12 @@
+== Welcome to Hell
+
+You don't want this repo.
+
+I'm struggling to get the karma runner working with Rails.  It blows up with
+coffeescript assets that have sprockets directives in them with the error
+`Uncaught SyntaxError: Unexpected token ILLEGAL`.  It does not blow up on
+directives in in-app assets, I don't think.
+
+The s3-direct gem is included because it will cause the blow up.
+
+Use `bundle exec rake test:karma:unit` to trigger a test run.
